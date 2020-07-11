@@ -1,0 +1,27 @@
+#####################################################
+#   WorkflowsRI Jekyll configuration file             #
+#####################################################
+
+# google services
+google-signin: '1043042177326-hr8cj7m89j8s8i4bopgm9pkkllr4dedf.apps.googleusercontent.com'
+google-analytics: 'UA-18066333-13'
+
+#####################################################
+
+# General options
+title: 'WorkflowsRI'
+tagline: ''
+description: ''
+
+#####################################################
+
+# Dependencies
+markdown: kramdown
+
+# Permalinks
+permalink: pretty
+
+exclude:
+  - node_modules
+  - .idea
+  - .jekyll-cache
