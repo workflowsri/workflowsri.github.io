@@ -1,0 +1,63 @@
+<div id="nav-wrapper">
+    <div id="profile-wrapper" class="d-flex flex-column">
+        <div id="avatar" class="d-flex" style="text-align: center">
+            <img src="/assets/images/workflowsri-vertical.png" style="width: 15em"/>
+        </div>
+        <div class="site-subtitle font-italic">{{- site.tagline -}}</div>
+    </div>
+
+    <ul class="nav flex-column">
+        {% assign page_urls = page.url | split: "/" %}
+
+        {% for item in site.data.tabs %}
+        {% assign ref = site.baseurl | append: "/" %}
+
+        {% if item.path %}
+        {% assign ref = ref | append: item.path | append: "/" %}
+        {% if item.url %}
+        {% assign ref = ref | append: item.url | append: "/" %}
+        {% endif %}
+        {% endif %}
+
+        <li class="nav-item d-flex justify-content-center
+      {% if item.url == page_urls.last
+        or item.name == page.tab_active
+        or item.name == " Home
+        " and page.layout == "home" %}active{% endif %}">
+        <a href="{{ ref }}" class="nav-link d-flex justify-content-center align-items-center w-100">
+            <i class="fa-fw {{ item.icon }} ml-xl-3 mr-xl-3 unloaded"></i>
+            <span>{{ item.name | upcase }}</span>
+        </a>
+        </li> <!-- .nav-item -->
+        {% endfor %}
+
+    </ul> <!-- ul.nav.flex-column -->
+
+</div><!-- #nav-wrapper -->
+
+<div class="sidebar-bottom d-flex flex-wrap justify-content-around mt-4">
+
+    {% for entry in site.data.contact %}
+    {% capture url %}
+    {%- if entry.type == 'github' -%}
+    https://github.com/{{ site.github.username }}
+    {%- elsif entry.type == 'twitter' -%}
+    https://twitter.com/{{ site.twitter.username }}
+    {%- elsif entry.type == 'email' -%}
+    {% assign email = site.social.email | split: '@' %}
+    javascript:window.open('mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@'))
+    {%- elsif entry.type == 'rss' -%}
+    {{ "/feed.xml" | relative_url }}
+    {%- else -%}
+    {{ entry.url }}
+    {%- endif -%}
+    {% endcapture %}
+
+    {% if url != '' %}
+    <a href="{{ url }}" {% unless entry.noblank %}target="_blank" {% endunless %}>
+        <i class="{{ entry.icon }}"></i>
+    </a>
+    {% endif %}
+    {% endfor %}
+
+</div>
