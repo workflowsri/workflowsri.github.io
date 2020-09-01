@@ -9,19 +9,13 @@ layout: compress
 
 <!DOCTYPE html>
 
-{% if site.lang %}
-  {% assign lang = site.lang | split: "_" | first %}
-{% else %}
-  {% assign lang = 'en' %}
-{% endif %}
-
 {% capture prefer_mode %}
   {% if site.theme_mode != "dual" %}
     mode="{{ site.theme_mode }}"
   {% endif %}
 {% endcapture %}
 
-<html lang="{{ lang }}" {{ prefer_mode }} >
+<html>
 
   {% include head.html %}
 
@@ -51,10 +45,6 @@ layout: compress
     <a id="back-to-top" href="#" class="btn btn-lg btn-box-shadow" role="button">
       <i class="fas fa-angle-up"></i>
     </a>
-
-    {% if jekyll.environment == 'production' %}
-      {% include google-analytics.html %}
-    {% endif %}
 
     {% include search-loader.html %}
 
