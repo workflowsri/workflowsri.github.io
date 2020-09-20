@@ -1,0 +1,31 @@
+- name: Rafael Ferreira da Silva
+  photo: ferreiradasilva.jpg
+  institution: University of Southern California
+  role: Principal Investigator
+  email: rafsilva@isi.edu
+  website: https://rafaelsilva.com
+  linkedin: https://www.linkedin.com/in/rafaelfsilva
+
+- name: Henri Casanova
+  photo: casanova.jpg
+  institution: University of Hawaii at Manoa
+  role: Co-Principal Investigator
+  email: henric@hawaii.edu
+  website: http://henricasanova.github.io
+  linkedin: https://www.linkedin.com/in/henricasanova
+
+- name: Kyle Chard
+  photo: chard.jpg
+  institution: University of Chicago
+  role: Co-Principal Investigator
+  email: chard@uchicago.edu
+  website: http://kylechard.com
+  linkedin: https://www.linkedin.com/in/kyle-chard-a7477537
+
+- name: Tainã Coleman
+  photo: coleman.jpg
+  institution: University of Southern California
+  role: Graduate Research Assistant
+  email: tgcolema@usc.edu
+  website: http://tainacoleman.com
+  linkedin: https://www.linkedin.com/in/tainacoleman

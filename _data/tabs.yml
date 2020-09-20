@@ -1,6 +1,11 @@
 - name: Home
   icon: "fas fa-home"
 
+- name: Team
+  icon: "fas fa-users"
+  path: tabs
+  url: team
+
 #- name: Categories
 #  icon: "fas fa-stream"
 #  path: tabs
