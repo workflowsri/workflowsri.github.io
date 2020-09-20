@@ -7,10 +7,9 @@ title: Team
 workflowsRI is a collaborative effort led by the University of Southern California (USC), 
 the University of Hawai'i at Mãnoa (UHM), and the University of Chicago (UChicago).
 
-{% for m in site.data.team %}
-
 <div class="row">
-    <div class="col-sm-12 col-md-12">
+{% for m in site.data.team %}
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
         <div class="team">
             <div class="person-thumb">
                 <img src="/assets/images/team/{{ m.photo }}" alt=""/>
@@ -32,6 +31,6 @@ the University of Hawai'i at Mãnoa (UHM), and the University of Chicago (UChica
             </div>
         </div>
     </div>
+{% endfor %}
 </div>
 
-{% endfor %}
