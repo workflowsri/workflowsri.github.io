@@ -123,7 +123,7 @@ $sidebar-display: "sidebar-display";
 
   .nav-item {
     height: $tab-height;
-    width: 100% !important;
+    //width: 100% !important;
 
     &:hover {
       .nav-link {
@@ -140,7 +140,6 @@ $sidebar-display: "sidebar-display";
 
   ul {
     height: $tab-height * $tab-count;
-    display: -webkit-box;
     display: -ms-flexbox;
 
     > li:last-child {
