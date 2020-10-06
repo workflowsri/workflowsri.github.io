@@ -58,6 +58,11 @@
   system: YesWorkflow
   website: http://yesworkflow.org
 
+- name: Marta Mattoso
+  photo: mattoso.jpg
+  system: SciCumulus/C<sup>2</sup>
+  website: https://scicumulusc2.wordpress.com
+
 - name: Lavanya Ramakrishnan
   photo: ramakrishnan.jpg
   system: Tigres
@@ -67,3 +72,8 @@
   photo: thain.jpg
   system: Makeflow
   website: http://ccl.cse.nd.edu/software/makeflow/
+
+- name: Justin Wozniak
+  photo: wozniak.jpg
+  system: Swift
+  website: http://swift-lang.org
