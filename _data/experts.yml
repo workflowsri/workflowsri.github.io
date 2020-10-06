@@ -38,6 +38,11 @@
   system: Dispel4Py
   website: https://github.com/dispel4py/dispel4py
 
+- name: Carole Goble
+  photo: goble.jpg
+  system: Taverna
+  website: https://taverna.incubator.apache.org
+
 - name: Anubhav Jain
   photo: jain.jpg
   system: FireWorks
