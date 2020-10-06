@@ -23,6 +23,21 @@
   system: Nextflow
   website: https://www.nextflow.io
 
+- name: Thomas Fahringer
+  photo: fahringer.png
+  system: ASKALON
+  website: http://www.askalon.org
+
+- name: Rosa Filgueira
+  photo: filgueira.jpg
+  system: Dispel4Py
+  website: https://github.com/dispel4py/dispel4py
+
+- name: Anubhav Jain
+  photo: jain.jpg
+  system: FireWorks
+  website: https://materialsproject.github.io/fireworks/
+
 - name: Daniel S. Katz
   photo: katz.png
   system: Parsl
