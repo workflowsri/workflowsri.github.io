@@ -1691,3 +1691,30 @@ div.post-content .table-wrapper {
 .RI {
   color: #C23E35;
 }
+
+.expert-thumb {
+  float: left;
+  min-width: 5em;
+  min-height: 6em;
+}
+
+.expert-thumb img {
+  border-radius: 5% !important;
+  box-shadow: 3px 3px 3px #000;
+  max-width: 4em;
+}
+
+.expert-info {
+  float: left;
+  min-height: 4em;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  line-height: 1.5em;
+  color: #aaa;
+}
+
+.expert-info a {
+  color: #999;
+  font-size: 0.8em;
+  font-weight: bold;
+}

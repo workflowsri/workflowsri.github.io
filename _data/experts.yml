@@ -1,0 +1,44 @@
+- name: Ilkay Altintas
+  photo: altintas.jpg
+  system: Kepler
+  website: https://kepler-project.org
+
+- name: Rosa Badia
+  photo: badia.jpg
+  system: COMPSs
+  website: http://compss.bsc.es
+
+- name: Michael R. Crusoe
+  photo: crusoe.jpg
+  system: Common Workflow Language
+  website: http://commonwl.org
+
+- name: Ewa Deelman
+  photo: deelman.jpg
+  system: Pegasus
+  website: http://pegasus.isi.edu
+
+- name: Paolo Di Tommaso
+  photo: ditommaso.jpg
+  system: Nextflow
+  website: https://www.nextflow.io
+
+- name: Daniel S. Katz
+  photo: katz.png
+  system: Parsl
+  website: http://parsl-project.org
+
+- name: Bertram	Ludascher
+  photo: ludaescher.jpg
+  system: YesWorkflow
+  website: http://yesworkflow.org
+
+- name: Lavanya Ramakrishnan
+  photo: ramakrishnan.jpg
+  system: Tigres
+  website: http://tigres.lbl.gov
+
+- name: Douglas Thain
+  photo: thain.jpg
+  system: Makeflow
+  website: http://ccl.cse.nd.edu/software/makeflow/
