@@ -1,3 +1,8 @@
+- name: David Abramson
+  photo: abramson.jpg
+  system: Nimrod/K
+  website: https://rcc.uq.edu.au/nimrod
+
 - name: Ilkay Altintas
   photo: altintas.jpg
   system: Kepler
@@ -37,6 +42,11 @@
   photo: jain.jpg
   system: FireWorks
   website: https://materialsproject.github.io/fireworks/
+
+- name: Shantenu Jha
+  photo: jha.jpg
+  system: RADICAL Cybertools
+  website:
 
 - name: Daniel S. Katz
   photo: katz.png
