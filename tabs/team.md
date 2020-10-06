@@ -37,6 +37,9 @@ and the University of Chicago (UChicago).
 {% endfor %}
 </div>
 
+You can reach the <strong>workflows<span class="RI">RI</span></strong> leadership team
+at [leadership@workflowsri.org](mailto:leadership@workflowsri.org).
+
 <br/>
 
 ## Board of Experts
