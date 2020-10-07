@@ -1468,7 +1468,8 @@ div.post-content .table-wrapper {
       -webkit-box-pack: normal !important;
       -ms-flex-pack: normal !important;
       justify-content: normal !important;
-      >a {
+
+      > a {
         width: 6.2rem;
         height: 6.2rem;
       }
@@ -1721,4 +1722,27 @@ div.post-content .table-wrapper {
 
 h2 {
   color: #ddd;
+}
+
+.getinvolved {
+  font-size: 1.3em;
+  margin: auto;
+  margin-top: 2em;
+  border: 1px solid #ccc;
+  padding: 1em;
+  border-radius: 2em;
+  width: 60%;
+  text-align: center;
+}
+
+.getinvolved strong {
+  color: #ccc;
+}
+
+.getinvolved:hover {
+  background-color: #333 !important;
+}
+
+.getinvolved a {
+  color: #fff;
 }
