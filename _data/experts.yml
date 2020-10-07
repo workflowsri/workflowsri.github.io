@@ -55,7 +55,7 @@
 
 - name: Daniel S. Katz
   photo: katz.jpg
-  system: Parsl
+  system: Parsl and FuncX
   website: http://parsl-project.org
 
 - name: Bertram	Ludascher
@@ -75,7 +75,7 @@
 
 - name: Douglas Thain
   photo: thain.jpg
-  system: Makeflow
+  system: Makeflow and Workqueue
   website: http://ccl.cse.nd.edu/software/makeflow/
 
 - name: Justin Wozniak
