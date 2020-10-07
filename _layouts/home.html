@@ -27,6 +27,16 @@ layout: page
     </p>
 </div>
 
+<p>&nbsp;</p>
+
+<h2>Roadmap</h2>
+
+<div class="concept">
+    <img src="/assets/images/workflowsri-roadmap.png"/>
+</div>
+
+<p>&nbsp;</p>
+
 {% assign pinned = site.posts | where_exp: "item", "item.pin == true"  %}
 {% assign default = site.posts | where_exp: "item", "item.pin != true"  %}
 {% assign posts = "" | split: "" %}
