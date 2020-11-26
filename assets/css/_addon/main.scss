@@ -1746,3 +1746,19 @@ h2 {
 .getinvolved a {
   color: #fff;
 }
+
+.surveys h3 {
+  color: #E16E38;
+}
+
+.surveys .btn-contribute {
+  background-color: #E88F3B;
+  color: #fff;
+  border-radius: 1em;
+  padding: 0.5em 1.5em;
+}
+
+.surveys .btn-contribute:hover {
+  background-color: #D93D47;
+  color: #fff !important;
+}

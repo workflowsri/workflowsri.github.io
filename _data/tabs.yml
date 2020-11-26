@@ -1,6 +1,11 @@
 - name: Home
   icon: "fas fa-home"
 
+- name: Surveys
+  icon: "fas fa-poll-h"
+  path: tabs
+  url: surveys
+
 - name: Team
   icon: "fas fa-users"
   path: tabs
