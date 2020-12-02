@@ -1751,11 +1751,12 @@ h2 {
   color: #E16E38;
 }
 
-.surveys .btn-contribute {
+.surveys .btn-contribute, .surveys .btn-contribute:visited, .surveys .btn-contribute:before {
   background-color: #E88F3B !important;
   color: #fff !important;
   border-radius: 1em !important;
   padding: 0.5em 1.5em !important;
+  border-color: #E88F3B !important;
 }
 
 .surveys .btn-contribute:hover {

@@ -15,9 +15,11 @@ activities. You are invited as a possible participant if
 you may have used or developed workflow management systems in 
 the past for your research.
 
-<a type="button" class="btn btn-contribute" href="http://community-survey.workflowsri.org" target="_blank">
+<a href="http://community-survey.workflowsri.org" target="_blank">
+<button class="btn btn-contribute">
   <i class="fas fa-poll-h"></i>
   Contribute to the Survey
+  </button>
 </a>
 <br/><span style="font-size: 0.8em">(est. less than 10 min)</span>
 
