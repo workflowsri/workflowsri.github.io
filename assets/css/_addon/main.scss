@@ -1774,3 +1774,36 @@ h3 a {
   left: 0.5em;
   top: 0.5em;
 }
+
+.agenda {
+  margin-top: 2em;
+}
+
+.agenda td {
+  line-height: 1.2em;
+}
+
+.agenda h4 {
+  color: #E16E38;
+}
+
+.agenda-border {
+  padding: 0;
+  margin: 0;
+  min-width: 0.4em;
+  max-width: 0.4em;
+  min-height: 1em;
+  border-radius: 1em;
+}
+
+.orange {
+  background-color: #E16E38;
+}
+
+.red {
+  background-color: #D93D47;
+}
+
+.yellow {
+  background-color: #F3AD4D;
+}
