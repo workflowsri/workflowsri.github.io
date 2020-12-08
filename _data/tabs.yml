@@ -1,14 +1,16 @@
 - name: Home
   icon: "fas fa-home"
 
+- name: Summits
+  icon: "fas fa-video"
+  url: summits
+
 - name: Surveys
   icon: "fas fa-poll-h"
-  path: tabs
   url: surveys
 
 - name: Team
   icon: "fas fa-users"
-  path: tabs
   url: team
 
 #- name: Categories

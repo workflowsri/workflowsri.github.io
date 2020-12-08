@@ -14,9 +14,9 @@
 
         {% if item.path %}
         {% assign ref = ref | append: item.path | append: "/" %}
+        {% endif %}
         {% if item.url %}
         {% assign ref = ref | append: item.url | append: "/" %}
-        {% endif %}
         {% endif %}
 
         <li class="nav-item d-flex justify-content-center
