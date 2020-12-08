@@ -1,17 +1,20 @@
-{% comment %}
-  The trending tags list
-  v2.0
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2019 Cotes Chung
-  MIT Licensed
-{% endcomment %}
+<div class="trending">
+    <h3>Latest News</h3>
+    <div class="trending-item">
+        <strong><a href="/summits/community">Workflows Community Summit</a></strong>
+        <p style="font-size: 0.8em; line-height: 1.2em">
+            Wednesday – January 13, 2021<br/>
+            9am-noon PST / noon-3pm EST / 5pm-8pm GMT
+        </p>
+    </div>
+</div>
 
 {% assign MAX = 10 %}
 
 {% capture tags_array %}
-  {% for tag in site.tags %}
-    {{ tag[1] | size }}::{{ tag[0] | replace: ' ', '-' }}
-  {% endfor %}
+{% for tag in site.tags %}
+{{ tag[1] | size }}::{{ tag[0] | replace: ' ', '-' }}
+{% endfor %}
 {% endcapture %}
 
 {% assign all_tags = tags_array | split: " " | sort | reverse %}
@@ -20,12 +23,12 @@
 {% assign trending_tags = "" | split: "" %}
 
 {% for iter in all_tags %}
-  {% assign count = count | plus: 1 %}
-  {% assign tag = iter | split: "::" | last  %}
+{% assign count = count | plus: 1 %}
+{% assign tag = iter | split: "::" | last  %}
 
-  {% assign trending_tags = trending_tags | push: tag %}
+{% assign trending_tags = trending_tags | push: tag %}
 
-  {% if count >= MAX %}
-    {% break %}
-  {% endif %}
+{% if count >= MAX %}
+{% break %}
+{% endif %}
 {% endfor %}
