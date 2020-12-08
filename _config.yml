@@ -98,8 +98,7 @@ kramdown:
 permalink: /posts/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: page
@@ -107,6 +106,17 @@ defaults:
       breadcrumb:
         - label: workflowsRI
           url: /
+
+  - scope:
+      path: "summits"
+    values:
+      layout: page
+      dynamic_title: true
+      breadcrumb:
+        - label: workflowsRI
+          url: /
+        - label: Summits
+          url: /summits/
 
 #  -
 #    scope:
@@ -170,14 +180,14 @@ sass:
 
 compress_html:
   clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: [html, head, body, dt, dd, rt, rp,
-            optgroup, option, colgroup, caption,
-            thead, tbody, tfoot, tr, td, th]
+  comments: [ "<!-- ", " -->" ]
+  endings: [ html, head, body, dt, dd, rt, rp,
+             optgroup, option, colgroup, caption,
+             thead, tbody, tfoot, tr, td, th ]
   profile: false
   blanklines: false
   ignore:
-    envs: []
+    envs: [ ]
 
 exclude:
   - vendor        # Avoid Jekyll mistakenly read the vendor directory on Travis-CI's VM .
@@ -188,7 +198,7 @@ exclude:
   - README.md
   - LICENSE
 
-sitemap_exclude:  # Sitemap will exclude the following items.
+sitemap_exclude: # Sitemap will exclude the following items.
   fuzzy:
     - /assets/
   accurate:
