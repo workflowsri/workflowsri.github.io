@@ -78,6 +78,11 @@
   system: Makeflow and Workqueue
   website: http://ccl.cse.nd.edu/software/makeflow/
 
+- name: Matthew Wolf
+  photo: wolf.jpg
+  system: Cheetah/Savanna
+  website: https://codarcode.github.io/cheetah/index
+
 - name: Justin Wozniak
   photo: wozniak.jpg
   system: Swift
