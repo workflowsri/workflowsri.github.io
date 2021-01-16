@@ -68,6 +68,11 @@
   system: SciCumulus/C<sup>2</sup>
   website: https://scicumulusc2.wordpress.com
 
+- name: Luc Peterson
+  photo: peterson.jpg
+  system: Merlin
+  website: https://merlin.readthedocs.io/en/latest/
+
 - name: Lavanya Ramakrishnan
   photo: ramakrishnan.jpg
   system: Tigres
