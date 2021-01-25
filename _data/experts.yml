@@ -43,6 +43,11 @@
   system: Taverna
   website: https://taverna.incubator.apache.org
 
+- name: Björn Grüning
+  photo: gruening.jpg
+  system: Galaxy
+  website: https://galaxyproject.org
+
 - name: Anubhav Jain
   photo: jain.jpg
   system: FireWorks
