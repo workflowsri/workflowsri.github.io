@@ -9,9 +9,9 @@ _**Advancing the State-of-the-art of Scientific Workflows Management Systems Res
 <br/>
 Wednesday -- April 7, 2021
 
-<button onclick="window.open('https://forms.gle/7DDuZqMbxBC8zmvx6')"
+<!--button onclick="window.open('https://forms.gle/7DDuZqMbxBC8zmvx6')"
 class="btn btn-success register small" style="font-size: 0.8em">Register Here!
-</button>
+</button-->
 
 
 ---
