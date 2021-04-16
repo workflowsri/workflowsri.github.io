@@ -7,7 +7,12 @@ title: Summits
 ### [Workflows Community Summit](/summits/technical)
 _**Advancing the State-of-the-art of Scientific Workflows Management Systems Research and Development**_
 <br/>
-Wednesday -- April 7, 2021
+Wednesday -- April 7, 2021<br/>
+<button onclick="window.open('https://www.youtube.com/watch?v=lbGCz2EgfZU&list=PLAtmuqHExRvOfsFTDdtGDrhovi1oQWLgP')"
+class="btn btn-danger register" style="font-size: 0.8em; background-color: #a71d2a">
+<i class="fab fa-youtube" style="color: #fff !important"></i>&nbsp;&nbsp;Watch Videos!
+</button>
+
 
 <!--button onclick="window.open('https://forms.gle/7DDuZqMbxBC8zmvx6')"
 class="btn btn-success register small" style="font-size: 0.8em">Register Here!
