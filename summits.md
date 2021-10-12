@@ -7,7 +7,7 @@ title: Summits
 ### [Workflows Community Summit](/summits/facilities)
 _**Tightening the Integration between Computing Facilities and Scientific Workflows**_
 <br/>
-Monday -- November 1, 2021<br/>
+Monday -- November 8, 2021<br/>
 <!--button onclick="window.open('https://doi.org/10.5281/zenodo.4915801')"
 class="btn btn-danger register" style="font-size: 0.8em; background-color: #2F679D; border: 1px solid #2F679D">
 <i class="fas fa-file-pdf" style="color: #fff !important"></i>&nbsp;&nbsp;<strong>Report:</strong> DOI 10.5281/zenodo.4915801
