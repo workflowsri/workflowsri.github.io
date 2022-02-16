@@ -1729,12 +1729,13 @@ h2 {
   margin: auto;
   margin-top: 2em;
   border: 1px solid #ccc !important;
-  padding: 1em;
-  border-radius: 2em;
+  padding-bottom: 0.5em;
+  border-radius: 1em;
   width: 60%;
   text-align: center;
   display: block;
   text-decoration: none;
+  box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.15), 0px 0px 2px rgba(255, 255, 255, 0.2), 0px 0px 1px rgba(255, 255, 255, 0.2);
 }
 
 .getinvolved strong {

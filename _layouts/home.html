@@ -3,57 +3,83 @@ layout: page
 ---
 
 <div class="concept">
-    <img src="/assets/images/workflowsri-concept.png" style="max-width: 90%; margin: 0"/>
+    <img src="/assets/images/workflowsri-roadmap.png" />
 </div>
+
+<!-- <div class="concept">
+    <img src="/assets/images/workflowsri-concept.png" style="max-width: 90%; margin: 0"/>
+</div> -->
 
 <div style="line-height: 1.5em">
     <p>
-        The goal of the <strong>workflows<span class="RI">RI</span></strong> project is to engage with representatives
-        from the <strong>workflows
-        community</strong>
-        – including researchers, developers, science and engineering users, and cyberinfrastructure experts.
+        Building upon the success of <strong>workflows<span class="RI">RI</span></strong>, we are launching a new
+        <strong><a href="https://workflows.community" target="_blank">Workflows Community Initiative</a></strong> (WCI)
+        to focus on bringing together community resources and capabilities for workflow users, developers, and
+        researchers, as well as facilitating discussions and interactions with computing facilities. WCI arises as a
+        community-centered effort for gathering and promoting long-standing and recent community-focused efforts (e.g.,
+        workflowsRI, ExaWorks, ELIXIR, among others).
     </p>
 
-    <p>
-        Through targeted community surveys and focused summits, the project will gather a diverse set of perspectives,
-        create a community-owned WMS inventory and common knowledge taxonomy, define an experimental methodology for
-        measuring WMS capabilities, and develop a blueprint for a community research infrastructure.
-    </p>
-    <p>
-        The end goal of this project is to design an infrastructure that will have the potential to truly democratize
-        workflows research, enabling researchers, postdocs, and students, irrespective of their institutions, to access
-        cutting-edge infrastructure for comparison, evaluation, and verification of workflows research results.
-
-    </p>
-
-    <a class="getinvolved" href="https://join.slack.com/t/workflowscommunity/shared_invite/zt-10tn61tdy-p9sExEOBoCDpaPmj3G3Jtg"
-       target="_blank">
-            <img src="/assets/images/slack.png" style="width: 1em; display: block; margin: 0" alt="slack"/>
-            Join us at <strong>workflows<span class="RI">community</span>.slack.com</strong>
-    </a>
+    <a class="getinvolved" href="https://workflows.community" target="_blank"> <img
+            src="https://workflows.community/favicon.ico" style="width: 2em; display: block; margin: 0" alt="slack" />
+        Join us at <strong>https://workflows.<span class="RI">community</span></strong> </a>
 
 </div>
 
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p>
 
 <h2>Roadmap</h2>
 
 <div class="concept">
     <img src="/assets/images/workflowsri-roadmap.png"/>
-</div>
+</div> -->
 
+<p>&nbsp;</p>
 <p>&nbsp;</p>
 
 <h2>Project Overview</h2>
-<br/>
+<br />
 <div class="resp-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/iQpdxML01i0" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen class="resp-iframe"></iframe>
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+        class="resp-iframe"></iframe>
 </div>
+<p>&nbsp;</p>
+<a href="https://doi.org/10.1109/WORKS54523.2021.00016" target="_blank"
+    style="display: block; border: 1px solid #333; padding: 1em 2em; border-radius: 1em; box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.15), 0px 0px 2px rgba(255, 255, 255, 0.2), 0px 0px 1px rgba(255, 255, 255, 0.2);">
+    <h3>Research Paper</h3>
+    <strong>A Community Roadmap for Scientific Workflows Research and Development</strong><br />
+    <p style="font-size: 0.9em; line-height: 1.3em; font-style: italic; color: #999">
+        Ferreira da Silva, R., Casanova, H., Chard, K., Altintas, I.,
+        Badia, R. M., Balis, B., Coleman, T., Coppens, F., Di Natale, F., Enders, B., Fahringer, T., Filgueira, R.,
+        Fursin, G., Garijo, D., Goble, C., Howell, D., Jha, S., Katz, D. S., Laney, D., … Wolf, M. (2021) 2021 IEEE
+        Workshop on Workflows in Support of Large-Scale Science (WORKS), 81–90.
+        https://doi.org/10.1109/WORKS54523.2021.00016
+    </p>
+</a>
+<p>&nbsp;</p>
+<p>
+    Scientific workflows are used almost universally across scientific domains and have underpinned some of the most
+    significant discoveries of the past several decades. Workflow management systems (WMSs) provide abstraction and
+    automation which enable a broad range of researchers to easily define sophisticated computational processes and to
+    then execute them efficiently on parallel and distributed computing systems. As a result of widespread workflow
+    adoption, the workflows research and development community has grown: there are now hundreds of independent WMSs,
+    thousands of researchers and developers, and a rapidly growing corpus of workflows research publications. This
+    progress has occurred in spite of the absence of a community research infrastructure, which has had wide-ranging
+    consequences.
+</p>
+<p>
+    During this planning project, we conducted a series of events called "<a href="/summits">Workflows Community
+        Summits</a>" (January, April, and November 2021). The overarching goal of these summits was to (i) develop a
+    coherent view of the state of the art, (ii) identify key research challenges, (iii) articulate a vision for
+    potential community activities, and (iv) explore technical approaches for realizing (part of) this vision. The
+    summits were attended by more than 130 participants, including international lead researchers and developers, from
+    distinct workflow systems and user communities (over 30+ workflow systems were represented). The outcomes of the
+    three Workflows Community Summits have been compiled and published in three technical reports and a research paper.
+</p>
 
-{% assign pinned = site.posts | where_exp: "item", "item.pin == true"  %}
-{% assign default = site.posts | where_exp: "item", "item.pin != true"  %}
+{% assign pinned = site.posts | where_exp: "item", "item.pin == true" %}
+{% assign default = site.posts | where_exp: "item", "item.pin != true" %}
 {% assign posts = "" | split: "" %}
 
 <!-- Get pinned posts -->
@@ -74,58 +100,52 @@ layout: page
 
 {% assign default_beg = offset | minus: pinned.size %}
 
-{% if default_beg < 0 %}
-{% assign default_beg = 0 %}
-{% endif %}
-
-{% assign default_num = paginator.posts | size | minus: pinned_num  %}
-{% assign default_end = default_beg | plus: default_num | minus: 1 %}
-
-{% if default_num > 0 %}
-{% for i in (default_beg..default_end) %}
-{% assign posts = posts | push: default[i] %}
-{% endfor %}
-{% endif %}
-
-
-<div id="post-list">
-
-    {% for post in posts %}
-
-    <div class="post-preview">
-        <div class="d-flex justify-content-between pr-xl-2">
-            <h1><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>
-            {% if post.pin == true %}
-            <i class="fas fa-thumbtack fa-fw text-muted mt-1 ml-2 mt-xl-2" data-toggle="tooltip" data-placement="left"
-               title="Pinned"></i>
-            {% endif %}
-        </div>
-        <div class="post-content">
-            <p>
-                {% include no-linenos.html content=post.content %}
-                {{ content | markdownify | strip_html | truncate: 200 }}
-            </p>
-        </div>
-
-        <div class="post-meta text-muted">
-            <!-- posted date -->
-            <i class="far fa-clock fa-fw"></i>
-            {% include timeago.html date=post.date tooltip=true %}
-
-            <!-- page views -->
-            {% if site.google_analytics.pv.enabled %}
-            <i class="far fa-eye fa-fw"></i>
-            <span id="pv_{{-post.title-}}" class="pageviews">
-        <i class="fas fa-spinner fa-spin fa-fw"></i>
-      </span>
-            {% endif %}
-        </div>
-    </div> <!-- .post-review -->
-
+{% if default_beg < 0 %} {% assign default_beg=0 %} {% endif %} {% assign default_num=paginator.posts | size | minus:
+    pinned_num %} {% assign default_end=default_beg | plus: default_num | minus: 1 %} {% if default_num> 0 %}
+    {% for i in (default_beg..default_end) %}
+    {% assign posts = posts | push: default[i] %}
     {% endfor %}
+    {% endif %}
 
-</div> <!-- #post-list -->
 
-{% if paginator.total_pages > 0 %}
-{% include post-paginator.html %}
-{% endif %}
+    <div id="post-list">
+
+        {% for post in posts %}
+
+        <div class="post-preview">
+            <div class="d-flex justify-content-between pr-xl-2">
+                <h1><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>
+                {% if post.pin == true %}
+                <i class="fas fa-thumbtack fa-fw text-muted mt-1 ml-2 mt-xl-2" data-toggle="tooltip"
+                    data-placement="left" title="Pinned"></i>
+                {% endif %}
+            </div>
+            <div class="post-content">
+                <p>
+                    {% include no-linenos.html content=post.content %}
+                    {{ content | markdownify | strip_html | truncate: 200 }}
+                </p>
+            </div>
+
+            <div class="post-meta text-muted">
+                <!-- posted date -->
+                <i class="far fa-clock fa-fw"></i>
+                {% include timeago.html date=post.date tooltip=true %}
+
+                <!-- page views -->
+                {% if site.google_analytics.pv.enabled %}
+                <i class="far fa-eye fa-fw"></i>
+                <span id="pv_{{-post.title-}}" class="pageviews">
+                    <i class="fas fa-spinner fa-spin fa-fw"></i>
+                </span>
+                {% endif %}
+            </div>
+        </div> <!-- .post-review -->
+
+        {% endfor %}
+
+    </div> <!-- #post-list -->
+
+    {% if paginator.total_pages > 0 %}
+    {% include post-paginator.html %}
+    {% endif %}
